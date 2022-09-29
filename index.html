@@ -169,7 +169,7 @@
             margin: auto;
             width: 80%;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            margin-top: 60px;
+            margin-top: 70px;
             color: rgb(169, 166, 166);
         }
        
@@ -196,7 +196,7 @@
             border: 0px solid red;
             width: 80%;
             margin: auto;
-            margin-top: 60px;
+            margin-top: 70px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             color: rgb(169, 166, 166);
         }
@@ -216,7 +216,142 @@
             width: 100%;
             border-radius: 20px;
         }
+        
+        #why-rev{
+            border: 0px solid red;
+            width: 80%;
+            margin: auto;
+            margin-top: 70px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #why-rev>h2{
+            color: rgb(169, 166, 166);
+        }
+        #rev-col{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: auto;
+            border: 0px solid yellow;
+            width: 100%;
+            gap: 25px;
 
+        }
+        #rev-col>div{
+            border: 0px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding-left: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 10px;
+        }
+        #rev-col>div>div>img{
+            width: 100%;
+        }
+        #rev-col>div>div>h3{
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #rev-col>div>div>p{
+            color: rgb(169, 166, 166);
+        }
+        #faq{
+            border: 0px solid red;
+            width: 80%;
+            margin: auto;
+            margin-top: 70px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #faq>div{
+            border: 0px solid black;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+           
+        }
+        #faq>h2{
+            color: rgb(169, 166, 166);
+        }
+        #faq>div>div{
+            border: 0px dotted blue;
+            padding-left: 20px;
+            border-bottom: 1px dotted gray;
+        }
+        #faq>div>div>p{
+            margin-top: -10px;
+            color: rgb(106, 104, 104);
+            font-size: 16px;
+        }
+        #happy{
+            border: 0px solid rebeccapurple;
+            width: 80%;
+            margin: auto;
+            margin-top: 70px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #happy>h2{
+            color: rgb(169, 166, 166);
+        }
+        #happy>div{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: 300px;
+            border: 0px solid orange;
+            gap: 20px;
+        }
+        #happy>div>div{
+            border: 0px solid orangered;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 20px;
+            padding: 0px 20px;
+        }
+        #happy>div>div>h3{
+            border-bottom: 1px dotted rgb(183, 181, 181);
+            padding-bottom: 20px;
+        }
+        #happy>div>div>p{
+            margin-top: 30px;
+            color: rgb(85, 85, 85);
+        }
+        #happy>div>div>img{
+            width: 20%;
+        }
+        #ad{
+            border: 0px solid red;
+            width: 80%;
+            height: 400px;
+            margin: auto;
+            margin-top: 70px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        #ad>div{
+            border: 0px solid blue;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: 400px;
+            gap: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #ad>div>div{
+            border: 0px solid seagreen;
+            margin: auto;
+            text-align: center;
+        }
+        #ad>div>div>h2{
+            color:rgb(85, 85, 85) ;
+        }
+        #mob-img>img{
+            width: 70%;
+            margin: auto;
+        }
+        #down-img{
+            display: flex;
+        }
+        #down-img>img{
+            width: 220px;
+        }
 
     </style>
 </head>
@@ -298,6 +433,102 @@
                 <img src="https://revvselfdrivecar.s3-us-west-2.amazonaws.com/staging_images/banner_sanitised_03-min.jpg" alt="">
             </div>
         </div>
+    </div>
+
+    <div id="why-rev">
+        <h2>Why Revv?</h2>
+       <div id="rev-col">
+        <div>
+            <div>
+            <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/rental2021/whyRevv/home.png" alt="">
+            </div>
+            <div>
+                <h3>Home delivery & return</h3>
+                <p>On-time doorstep service, at your preferred location and time</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/rental2021/whyRevv/price.png" alt="">
+                </div>
+                <div>
+                    <h3>Flexible pricing plans</h3>
+                    <p>On-time doorstep service, at your preferred location and time</p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/rental2021/whyRevv/maintained.png" alt="">
+                </div>
+                <div>
+                    <h3>Well maintained cars</h3>
+                    <p>On-time doorstep service, at your preferred location and time</p>
+                </div>
+        </div>
+       </div>
+    </div>
+
+    <div id="faq">
+        <h2>FAQs</h2>
+        <div>
+           <div>
+            <h3>Is there a speed limit?</h3>
+            <p>Revv allows up to 125 km/hr. However it is 80 km/hr in a few cities where some cars might be equipped with speed governors as per government directives. Revv strictly advises to follow local speed limits.</p>
+           </div>
+           <div>
+            <h3>Can I extend/ cancel/ modify?</h3>
+            <p>Yes, extensions are possible subject to availability & charges. Cancellations & modifications will attract nominal charges as per our policy.</p>
+           </div>
+           <div>
+            <h3>Booking criteria & documents?</h3>
+            <p>Min. 21 years old, have valid original government ID (Aadhar, Passport, or PAN only) and a valid driving licence for “Light Motor Vehicles”, which is min. 1 year old at the time of starting the trip. </p>
+           </div>
+           <div>
+            <h3>Are there any restricted areas?</h3>
+            <p>Leh/Ladhakh, Spiti Valley & Kaza/Nako regions are not permitted to take Revv cars. Customer will be fully liable for any damages incurred to the car in that region.</p>
+           </div>
+        </div>
+    </div>
+
+    <div id="happy">
+        <h2>Happy Customers</h2>
+        <div>
+            <div>
+                <h3>Prateek Shrivastava</h3>
+                <p>Cupiditate fugit reiciendis alias omnis rerum eius voluptatem possimus. Velit doo ipsum Lorem ipsum dolor sit amet. i adipisci asperiores incidunt blanditiis perferendis alias possimus in earum.</p>
+                <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/rental2021/icons/left-quote.png" alt="">
+            </div>
+            <div>
+                <h3>Roshan Raval</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elifugiat iste natus ea animi sit itaque eveniet cum Lorem ipsum dolor sit amet co ducimus debitis hic, ullam consectetur vitae fuga?</p>
+                <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/rental2021/icons/left-quote.png" alt="">
+            </div>
+            <div>
+                <h3>Sanjib Sarkar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing eli ab porro quae incidunt aperiam voluptate, saepe numquam repudiandae eos nulla expedita voluptatum reprehenderit tenetur!</p>
+                <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/rental2021/icons/left-quote.png" alt="">
+            </div>
+            <div>
+                <h3>Arjit Sarkar</h3>
+                <p>Lorem ipsu reiciendis iustmodi nisi velit aliquam animi, doloremque quae? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam delectus hic minus sunt, eaque maxime.</p>
+                <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/rental2021/icons/left-quote.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="ad">
+      <div>
+        <div>
+          <h2>Download revv app</h2>
+          <div id="down-img">
+            <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/rental2021/downloadApp/app_store.webp" alt="">
+            <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/rental2021/downloadApp/google_play.webp" alt="">
+          </div>
+        </div>
+        <div id="mob-img">
+            <img src="https://static.securitizemarkets.io/icons/connect-api-graphic.png" alt="">
+        </div>
+      </div>
     </div>
     
 </body>
